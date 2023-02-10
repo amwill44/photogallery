@@ -1,0 +1,102 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: black;
+    display: block;
+    margin: 0 auto; 
+  }
+  body{
+    max-width: 485px;
+  }
+  h1 {
+    padding: 15px;
+    background: white;
+    color: #007d7b;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+  nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav li{
+    display: inline;
+  }
+  nav a{
+    display: inline-block;
+    padding: 15px;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+  nav a:hover {
+    background: #007d7b;
+    color: black;
+    font-size: 2em;
+  }
+  article{
+    background: white;
+  }
+  article h2 {
+    padding: 15px;
+    background: white;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  article p{
+    padding: 0 15px;
+    background: white;
+    color: black;
+    font-size: 1.25em;
+  }
+  .gallery {
+    background: white;
+  }
+  .gallery img {
+    background: white;
+  }
+  #contact h2{
+    margin-bottom: 25px;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #contact p{
+    margin: 10px;
+    font-size: 1.25em;
+    text-align: center;
+  }
+  label{
+    font-size: 1em;
+    margin-left: 45px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+  }
+  input {
+    width: 85%;
+    background: white;
+    color: #007d7b;
+    padding:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  input[type=submit] {
+    width: 65%;
+    background: #007d7b;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer{
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
