@@ -37,6 +37,22 @@
     color: black;
     font-size: 2em;
   }
+  #topbutton {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    font-size: 1em;
+    padding: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 350px;
+    z-index: 99;
+  }
+  #topbutton:hover {
+    background: #007d7b;
+    color: black;
+    font-size: 1em;
+  }
   article{
     background: white;
   }
@@ -49,12 +65,49 @@
     text-transform: uppercase;
   }
   article p{
-    padding: 0 15px;
+    padding: 15px;
     background: white;
     color: black;
     font-size: 1.25em;
   }
+  .gallery{
+    background: white;
+  }
+  figure{
+    text-align: center;
+  }
+  .chile, .hawaii, .moab {
+    color: white;
+    position: relative;
+    top: -30px;
+    text-transform: uppercase;
+  }
+  .italy {
+    color: black;
+    position: relative;
+    top: -30px;
+    text-transform: uppercase;
+  }
+  .guatemala, .wyoming {
+    color: white;
+    position: relative;
+    top: -270px;
+    text-transform: uppercase;
+  }
+  .rocky, .switzerland, .uk, .usa{
+    color: black;
+    position: relative;
+    top: -270px;
+    text-transform: uppercase;
+  }
+  .ireland, .iran {
+    color: black;
+    position: relative;
+    top: -615px;
+    text-transform: uppercase;
+  }
   #contact h2{
+    margin-top: 25px;
     margin-bottom: 25px;
     font-size: 2em;
     text-align: center;
@@ -87,10 +140,14 @@
     padding: 10px;
     border-radius: 10px;
   }
+  input[type=submit]:hover {
+    background: white;
+    color:#007d7b;
+  }
   footer{
     font-size: 1em;
     text-align: center;
     text-transform: uppercase;
     margin-top: 50px;
   }
-  
+  @media screen and (min-width:650px)
