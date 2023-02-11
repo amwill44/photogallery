@@ -2,12 +2,12 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    background: black;
     display: block;
     margin: 0 auto; 
   }
   body{
     max-width: 485px;
+    background: black;
   }
   h1 {
     padding: 15px;
@@ -20,7 +20,6 @@
   nav {
     margin: 0;
     padding: 0;
-    text-align: center;
   }
   nav li{
     display: inline;
@@ -54,12 +53,6 @@
     background: white;
     color: black;
     font-size: 1.25em;
-  }
-  .gallery {
-    background: white;
-  }
-  .gallery img {
-    background: white;
   }
   #contact h2{
     margin-bottom: 25px;
@@ -98,5 +91,6 @@
     font-size: 1em;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 50px;
   }
   
